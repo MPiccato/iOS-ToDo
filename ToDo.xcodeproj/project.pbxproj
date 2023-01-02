@@ -14,6 +14,8 @@
 		F3A690292962F153001BC91F /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A690282962F153001BC91F /* ToDoTests.swift */; };
 		F3A690332962F153001BC91F /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A690322962F153001BC91F /* ToDoUITests.swift */; };
 		F3A690352962F153001BC91F /* ToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A690342962F153001BC91F /* ToDoUITestsLaunchTests.swift */; };
+		F3A690422962F1AE001BC91F /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A690412962F1AE001BC91F /* NoteModel.swift */; };
+		F3A690442962F7C9001BC91F /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A690432962F7C9001BC91F /* NotesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F3A6902E2962F153001BC91F /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A690322962F153001BC91F /* ToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITests.swift; sourceTree = "<group>"; };
 		F3A690342962F153001BC91F /* ToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3A690412962F1AE001BC91F /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		F3A690432962F7C9001BC91F /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				F3A690172962F152001BC91F /* ToDoApp.swift */,
 				F3A690192962F152001BC91F /* ContentView.swift */,
+				F3A690432962F7C9001BC91F /* NotesViewModel.swift */,
+				F3A690412962F1AE001BC91F /* NoteModel.swift */,
 				F3A6901B2962F153001BC91F /* Assets.xcassets */,
 				F3A6901D2962F153001BC91F /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A690442962F7C9001BC91F /* NotesViewModel.swift in Sources */,
 				F3A6901A2962F152001BC91F /* ContentView.swift in Sources */,
+				F3A690422962F1AE001BC91F /* NoteModel.swift in Sources */,
 				F3A690182962F152001BC91F /* ToDoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +432,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +461,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
